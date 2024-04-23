@@ -19,7 +19,6 @@ body {
 header {
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
     height: 150px;
     background-color: #fadeb08a;
     color: #5a4119fe;
