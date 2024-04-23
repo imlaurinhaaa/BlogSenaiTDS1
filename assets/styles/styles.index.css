@@ -20,7 +20,7 @@ header {
     display: flex;
     justify-content: space-around;
     height: 150px;
-    background-color: #fadeb08a;
+    background-color: #f4d0958a;
     color: #5a4119fe;
     align-items: center;
 }
@@ -51,4 +51,39 @@ header {
     border-bottom: 3px solid #5a4119fe;
     color: #5a4119fe;
     transform: scale(1.1);
+}
+
+#carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color:#ffe7c18a ;
+    margin: 20px;
+}
+
+#carousel img {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+#main-new {
+    width: 70%;
+    background-color: #f6b5b8;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#aside {
+    width: 28%;
+    background-color:  #b6e9e9;
+    margin: 20px;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
 }
